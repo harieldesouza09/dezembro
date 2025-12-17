@@ -1,0 +1,205 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+  <script>
+    window.googlePixelId = "68c8a55af3ef779533aaf8c6";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel-google.js");
+    document.head.appendChild(a);
+  </script>
+
+  <script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubra se você pode conquistar seu empréstimo!</title>
+  <meta name="description" content="Simulação segura, prática e sem complicações. Processo rápido, protegido e gratuito.">
+  <meta name="robots" content="index, follow">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, sans-serif; }
+    body {
+      background-color: #f4e3d1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      max-width: 460px;
+      width: 100%;
+      padding: 32px;
+      border-radius: 14px;
+      border: 4px solid #ea6800;
+      box-shadow: 0 8px 30px rgba(255, 140, 0, 0.3);
+      text-align: center;
+      position: relative;
+    }
+    h1 {
+      color: #ea6800;
+      font-size: 1.6em;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #333;
+      font-size: 1em;
+      margin-bottom: 24px;
+    }
+    .btn {
+      animation: pulse 1.5s infinite;
+      background: linear-gradient(145deg, #ea6800, #ca5100);
+      color: #fff;
+      padding: 16px 30px;
+      font-size: 1.1em;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: 0 6px 20px rgba(255, 140, 0, 0.7);
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background: linear-gradient(145deg, #ff9e00, #ec8800);
+      box-shadow: 0 8px 25px rgba(255, 165, 0, 0.9);
+      transform: scale(1.05);
+    }
+    .alert {
+      margin-top: 24px;
+      background: #f2eee6;
+      border-left: 4px solid #ea6800;
+      padding: 12px 16px;
+      font-size: 0.9em;
+      border-radius: 8px;
+      color: #333;
+    }
+    footer {
+      margin-top: 28px;
+      font-size: 0.8em;
+      color: #888;
+    }
+    footer a {
+      color: #888;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    footer a:hover { text-decoration: underline; }
+    .icon {
+      width: 60px;
+      margin-bottom: 18px;
+      animation: float 3s ease-in-out infinite;
+    }
+    .secure-badge {
+      margin-top: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      color: #ea6800;
+      font-size: 0.9em;
+      margin-bottom: -10px;
+    }
+    .secure-badge img {
+      width: 18px;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+      100% { transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.08); box-shadow: 0 0 25px rgba(255, 140, 0, 0.7); }
+      100% { transform: scale(1); }
+    }
+  </style>
+  <script>
+    window.pixelId = "6754e245da7a8d21ac6c41b3";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+
+  <script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+</head>
+<body>
+  <div class="container">
+    <img src="images/3135706.png" alt="Empréstimo pessoal" class="icon">
+    <h1>Descubra se você pode conquistar seu empréstimo!</h1>
+    <p>Simulação segura, prática e sem complicações. Processo rápido, protegido e gratuito. Confira sua simulação em instantes!</p>
+    <a id="checkout" class="btn">Fazer uma Simulação Gratuita</a>
+    <div class="alert">
+      Plataforma segura em conformidade com a LGPD. Nenhum dado sensível é coletado.
+    </div>
+    <footer>
+      <a href="#">Política de Privacidade</a> |
+      <a href="#">Termos de Uso</a> |
+      <a href="#">Contato</a>
+      <div class="secure-badge">
+        <img src="images/3064197.png" alt="Cadeado de segurança">
+        Site 100% Seguro - Protegido pela LGPD
+      </div>
+    </footer>
+  </div>
+
+
+  <script>
+    function getUrlParams() {
+      const params = {};
+      const urlParams = new URLSearchParams(window.location.search);
+      for (const [key, value] of urlParams) {
+        params[key] = value;
+      }
+      return params;
+    }
+
+    // Função para construir URL com os parâmetros
+    function buildUrlWithParams(baseUrl) {
+      const fullUrl = new URL(baseUrl, window.location.origin);
+      const params = getUrlParams();
+
+      Object.keys(params).forEach(key => {
+        fullUrl.searchParams.append(key, params[key]);
+      });
+
+      return fullUrl.toString();
+    }
+
+    // Aguarda o DOM carregar completamente
+    document.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM carregado, procurando botão...');
+      
+      let checkoutButton = document.getElementById('checkout');
+      
+      if (checkoutButton) {
+        console.log('Botão encontrado, adicionando evento...');
+        
+        checkoutButton.addEventListener('click', function(e) {
+          e.preventDefault(); // Previne o comportamento padrão do link
+          console.log('Botão clicado!');
+          console.log('Parâmetros UTM atuais:', window.location.search);
+          
+          const finalUrl = buildUrlWithParams('../inicio/index.html');
+          console.log('Redirecionando para:', finalUrl);
+          
+          window.location.href = finalUrl;
+        });
+        
+        console.log('Evento adicionado com sucesso');
+      } else {
+        console.error('Botão com ID "checkout" não encontrado!');
+      }
+    });
+      
+
+
+
+
+  </script>
+
+
+
+
+
+
+</body></html>
